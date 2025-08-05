@@ -57,7 +57,7 @@ export default function Index() {
   ];
 
   const vacancies = [
-    { title: 'Охранник 4 разряда', salary: 'от 45 000 ₽', schedule: 'сутки через двое' },
+    { title: 'Охранник 4 разряда', salary: 'от 3 000 ₽', schedule: 'сутки через двое' },
     { title: 'Старший охранник', salary: 'от 55 000 ₽', schedule: 'график 2/2' },
     { title: 'Инженер систем безопасности', salary: 'от 80 000 ₽', schedule: 'пн-пт 9:00-18:00' }
   ];
