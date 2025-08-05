@@ -323,8 +323,8 @@ export default function Index() {
                   <Icon name="Phone" size={24} className="text-primary" />
                 </div>
                 <h4 className="font-semibold mb-2">Телефон</h4>
-                <p className="text-muted-foreground">+7 (495) 123-45-67</p>
-                <p className="text-muted-foreground">+7 (800) 555-01-23</p>
+                <p className="text-muted-foreground">+7 (995) 173-10-05</p>
+                <p className="text-muted-foreground"></p>
               </CardContent>
             </Card>
             <Card className="text-center border-0 bg-white/80">
@@ -333,7 +333,7 @@ export default function Index() {
                   <Icon name="Mail" size={24} className="text-primary" />
                 </div>
                 <h4 className="font-semibold mb-2">Email</h4>
-                <p className="text-muted-foreground">info@armada-security.ru</p>
+                <p className="text-muted-foreground">armada-krk@yandex.ru</p>
                 <p className="text-muted-foreground">sales@armada-security.ru</p>
               </CardContent>
             </Card>
@@ -387,7 +387,7 @@ export default function Index() {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-2">
                       <Icon name="DollarSign" size={16} className="text-primary" />
-                      <span className="font-medium">{vacancy.salary}</span>
+                      <span className="font-medium mx-1">{vacancy.salary}</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Icon name="Calendar" size={16} className="text-primary" />
