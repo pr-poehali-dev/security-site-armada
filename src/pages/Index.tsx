@@ -112,11 +112,11 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="Award" size={20} className="text-primary" />
-                  <span className="font-medium">15+ лет опыта</span>
+                  <span className="font-medium">опытные сотрудники</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="Users" size={20} className="text-primary" />
-                  <span className="font-medium">500+ объектов</span>
+                  <span className="font-medium"></span>
                 </div>
               </div>
               <Button size="lg" className="bg-primary hover:bg-primary/90">
