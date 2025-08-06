@@ -176,40 +176,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-20 px-4 bg-white/50">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold mb-4">Наши услуги</h3>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Комплексные решения в сфере безопасности с использованием передовых технологий
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 bg-white/80">
-                <CardHeader className="text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon name={service.icon as any} size={32} className="text-primary" />
-                  </div>
-                  <CardTitle className="text-xl">{service.title}</CardTitle>
-                  <CardDescription>{service.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center space-x-2 text-sm">
-                        <Icon name="Check" size={16} className="text-primary" />
-                        <span>{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* About Section */}
       <section id="about" className="py-20 px-4">
