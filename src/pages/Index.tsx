@@ -196,24 +196,7 @@ export default function Index() {
                   и внедряем инновационные решения в области безопасности.
                 </p>
               </div>
-              <div className="grid grid-cols-2 gap-6 mt-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">15+</div>
-                  <div className="text-muted-foreground">лет опыта</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">500+</div>
-                  <div className="text-muted-foreground">защищенных объектов</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">150+</div>
-                  <div className="text-muted-foreground">сотрудников</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">24/7</div>
-                  <div className="text-muted-foreground">поддержка клиентов</div>
-                </div>
-              </div>
+
             </div>
             <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-8 rounded-2xl">
               <div className="space-y-6">
