@@ -198,21 +198,9 @@ export default function Index() {
               </div>
 
             </div>
-            <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-8 rounded-2xl">
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <Icon name="Target" size={24} className="text-primary" />
-                  <div>
-                    <h4 className="font-semibold">Наша миссия</h4>
-                    <p className="text-sm text-muted-foreground">Обеспечение максимального уровня безопасности</p>
-                  </div>
+            <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-8 rounded-2xl"></div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <Icon name="Eye" size={24} className="text-primary" />
-                  <div>
-                    <h4 className="font-semibold">Наше видение</h4>
-                    <p className="text-sm text-muted-foreground">Лидер рынка охранных услуг в регионе</p>
-                  </div>
+                <div className="flex items-center space-x-4"></div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Icon name="Heart" size={24} className="text-primary" />
@@ -293,10 +281,7 @@ export default function Index() {
                   <Icon name="MapPin" size={24} className="text-primary" />
                 </div>
                 <h4 className="font-semibold mb-2">Адрес</h4>
-                <p className="text-muted-foreground text-sm">
-                  г. Москва, ул. Тверская, 15<br/>
-                  офис 301, 3 этаж
-                </p>
+                <p className="text-muted-foreground text-sm">г.Красноярск, ул. Боткина, 63.</p>
               </CardContent>
             </Card>
             <Card className="text-center border-0 bg-white/80">
